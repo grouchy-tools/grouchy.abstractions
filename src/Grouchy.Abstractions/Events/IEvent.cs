@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Grouchy.Abstractions
+namespace Grouchy.Abstractions.Events
 {
-    // TODO: Do other events' interfaces need to inherit this, or just the concretes?
     public interface IEvent
     {
         string EventType { get; }
